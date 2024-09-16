@@ -28,7 +28,7 @@ APPLICATION_ID = 'your-application-id-here'
 APPLICATION_MODULES_URL = f'https://{SUBDOMAIN}.unqork.io/api/1.0/applications/{APPLICATION_ID}/modules' # Do not modify
 
 # Module Definition Base URL - If your module id is 66a66666a6aa6a6666a66666, then your final URL endpoint is https://{SUBDOMAIN}.unqork.io/fbu/form/66a66666a6aa6a6666a66666
-MODULE_DEF_BASE_URL = 'https://{SUBDOMAIN}.unqork.io/fbu/form/' # Do not modify
+MODULE_DEF_BASE_URL = f'https://{SUBDOMAIN}.unqork.io/fbu/form' # Do not modify
 
 # Output
 LIST_OF_MODULES_FILENAME_OUTPUT = 'list_of_modules.txt'
